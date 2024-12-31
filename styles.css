@@ -47,7 +47,7 @@ footer {
 
 .float-left2 {
     float: left;
-    margin: 350px -280px 1000px 90px; /* 添加一些外边距，以便文本和图片之间有一些空间 */
+    margin: 750px -280px 1000px -30px; /* 添加一些外边距，以便文本和图片之间有一些空间 */
     color:rgb(255, 204, 0);
     font-family: "Zapf Chancery", sans-serif;
 }
