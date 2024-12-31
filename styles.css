@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto; /* 使footer推到页面底部 */
+    text-align: center; /* 居中内容 */
+    background-color: #ffffff; /* 可选：设置背景颜色 */
+    padding: 50px 0; /* 可选：增加一些内边距 */
+}
+
+footer p {
+    margin: 0; /* 移除默认的段落边距 */
+}
+
+/* 默认样式 */
+footer {
+    text-align: center;
+    padding: 20px 0; /* 适当的内边距 */
+    background-color: #ffffff; /* 背景颜色 */
+}
+
+/* 当屏幕宽度小于600px时应用的样式 */
+@media (max-width: 600px) {
+    footer {
+        padding: 10px 0; /* 减小内边距以适应小屏幕 */
+        font-size: 14px; /* 调整字体大小以保持可读性 */
+    }
+}
+
+.container {
+    width: 90%; /* 宽度为浏览器窗口的90% */
+    margin: 0 auto; /* 水平居中 */
+}
+
+.float-left {
+    float: left;
+    margin: 0 -280px 1000px 100px; /* 添加一些外边距，以便文本和图片之间有一些空间 */
+}
+
+.float-left2 {
+    float: left;
+    margin: 350px -280px 1000px 90px; /* 添加一些外边距，以便文本和图片之间有一些空间 */
+    color:rgb(255, 204, 0);
+    font-family: "Zapf Chancery", sans-serif;
+}
