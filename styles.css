@@ -23,8 +23,13 @@ footer p {
 /* 默认样式 */
 footer {
     text-align: center;
-    padding: 20px 0; /* 适当的内边距 */
-    background-color: #ffffff; /* 背景颜色 */
+    /*padding: 20px 0; /* 适当的内边距 */
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #ffffff00; /* 背景颜色 */
 }
 
 /* 当屏幕宽度小于600px时应用的样式 */
@@ -42,12 +47,12 @@ footer {
 
 .float-left {
     float: left;
-    margin: 0 -280px 1000px 100px; /* 添加一些外边距，以便文本和图片之间有一些空间 */
+    margin: 0 -580px 400px -30px; /* 添加一些外边距，以便文本和图片之间有一些空间 */
 }
 
 .float-left2 {
     float: left;
-    margin: 750px -280px 1000px -30px; /* 添加一些外边距，以便文本和图片之间有一些空间 */
+    margin: 750px -280px 400px 60px; /* 添加一些外边距，以便文本和图片之间有一些空间 */
     color:rgb(255, 204, 0);
     font-family: "Zapf Chancery", sans-serif;
 }
